@@ -3,7 +3,7 @@
 <!-- obtenemos todos los usuarios desde el controlador-->
 
 
-@foreach ($users->tipos as $user)
+@foreach ($users as $user)
     <p>{{ $user->id }}</p>
     <p>{{ $user->name }}</p>
     <p>{{ $user->email }}</p>
